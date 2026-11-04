@@ -1,0 +1,1 @@
+const n={headlineMax:30,descriptionMax:90,pathMax:15,minHeadlines:3,maxHeadlines:15,minDescriptions:2,maxDescriptions:4,keywordMax:80},e=["paid_search_opportunity","local_search_opportunity","market_gap","emerging_query"];function i(a){return e.includes(a)}export{n as L,i as o};

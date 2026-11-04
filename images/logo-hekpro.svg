@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="76" viewBox="0 0 330 76" role="img" aria-labelledby="title desc">
+  <title id="title">HekPro</title>
+  <desc id="desc">HekPro - sterk in hekwerk</desc>
+  <g transform="translate(4 14)" fill="#182128">
+    <rect x="0" y="7" width="8" height="25"/>
+    <rect x="11" y="0" width="8" height="32"/>
+    <rect x="22" y="7" width="8" height="25"/>
+    <rect x="33" y="0" width="8" height="32"/>
+  </g>
+  <text x="58" y="43" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="37" font-weight="900" letter-spacing="-2.1" fill="#182128">HEK<tspan fill="#f36d21">PRO</tspan></text>
+  <text x="60" y="59" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" letter-spacing="2.2" fill="#68737d">STERK IN HEKWERK</text>
+</svg>

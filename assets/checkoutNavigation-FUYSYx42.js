@@ -1,0 +1,1 @@
+function o(){try{return window.top!==window.self}catch{return!0}}function r(n){if(n){if(o()){if(window.open(n,"_blank","noopener,noreferrer"))return;try{if(window.top){window.top.location.href=n;return}}catch{}}window.location.href=n}}export{r as o};
