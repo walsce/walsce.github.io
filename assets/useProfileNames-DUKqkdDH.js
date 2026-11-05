@@ -1,0 +1,1 @@
+import{Q as t,s as a}from"./index-DvDfTs5D.js";function u(o){const e=[...new Set(o.filter(Boolean))];return t({queryKey:["profile-names",e.sort().join(",")],queryFn:async()=>{if(e.length===0)return{};const{data:n}=await a.from("profiles").select("id, full_name").in("id",e),r={};if(n)for(const s of n)r[s.id]=s.full_name||"Onbekend";return r},enabled:e.length>0})}export{u};
