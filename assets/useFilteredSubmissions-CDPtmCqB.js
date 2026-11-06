@@ -1,0 +1,1 @@
+import{am as t,Q as n,s as u}from"./index-DOZi0BK9.js";function i(){const{currentBrand:e}=t();return n({queryKey:["submissions","filtered",e],queryFn:async()=>{let s=u.from("submissions").select("*").order("created_at",{ascending:!1});e&&(s=s.eq("source_brand",e));const{data:a,error:r}=await s;if(r)throw r;return a}})}export{i as u};
